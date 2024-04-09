@@ -1,4 +1,4 @@
-# 🎵 Gupta-Music-Player 🎵
+# 📀🎵 Gupta-Music-Player ♬♪
 
 ## Link 👉 https://gupta-music-player.vercel.app/
 
