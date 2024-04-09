@@ -1,6 +1,6 @@
 # 🎵 Gupta-Music-Player 🎵
 
-## Link 👉 https://gupta-music-player-anubhav-kumar-guptas-projects.vercel.app/
+## Link 👉 https://gupta-music-player.vercel.app/
 
 ## Description:
 
