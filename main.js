@@ -22,6 +22,14 @@ const songs = [
   },
 
   {
+    path: "https://raag.fm/files/mp3/128/Hindi/2308450/Chaar%20Botal%20Vodka%20(Ragini%20MMS%202)%20-%20(Raag.Fm).mp3",
+    musicName: "	Chaar Botal Vodka ",
+    artist: "Yo Yo Honey Singh",
+    cover:
+      "https://resize.indiatvnews.com/en/resize/oldbucket/1200_-/entertainmentbollywood/Ragini-MMS-song12207.jpg",
+  },
+
+  {
     path: "https://2022.downloadming.ws/bollywood%20mp3/Animal%202023/01%20-%20Hua%20Main%20%28320%20Kbps%29.mp3",
     musicName: "Hua Main",
     artist: "Raghav Chaitanya",
@@ -45,12 +53,13 @@ const songs = [
   },
 
   {
-    path: "https://new.downloadming.ws/audio%20songs/bollywood%20mp3/Life%20in%20a...%20Metro%20(2007)/07%20-%20Alvida%20Reprise%20-%20www.downloadming.com.mp3",
-    musicName: "Alvida Reprise",
-    artist: "Pritam",
+    path: "https://new.downloadming.ws/2016a/bollywood%20mp3/K.K.%20Mega%20Hit%20Songs%20Collection%20(2017)/K.K.%20-%20Mega%20Hit%20Songs%20Collection%20(2017)%20(320%20Kbps)/18%20-%20Tujhi%20Mein%20(Crook)%20-%20K.K.%20-%20DownloadMing.SE.mp3",
+    musicName: "Tujhi Mein",
+    artist: "K.K.",
     cover:
-      "https://th.bing.com/th/id/OIP.F6ABQFGbN-Jf8MFLjQgWzQHaHa?w=181&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "https://e-cdn-images.dzcdn.net/images/cover/b085365c38eaaa6095ae44723a76f853/500x500-000000-80-0-0.jpg",
   },
+
 ];
 
 let isLoading = false;

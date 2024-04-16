@@ -61,7 +61,7 @@ body {
     height: 0;
     width: 0;
     opacity: 0;
-    object-fit: cover;
+    object-fit: cover; /* may use contain or cover*/
     border-radius: 20px;
     box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
     transition: .5s;
@@ -171,14 +171,20 @@ h3 {
 
 }
 
-.footer{
+
+.footer {
     top: 92%;
-    left: 40%;
+    left: 41%;
     right: 10%;
-    bottom:10%;
+    bottom: 10%;
     position: absolute;
     text-align: bottom;
-    color:black;
-    text-decoration: none;
+    color: black;
 
+}
+
+        
+.footer a { /* This targets the anchor (link) element within the footer */
+    color: black; /* This sets the color of the link to black */
+    text-decoration:underline; /* This removes the underline from the link */
 }
