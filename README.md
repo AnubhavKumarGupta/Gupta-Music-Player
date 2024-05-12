@@ -9,6 +9,8 @@
 
 <img width="959" alt="image" src="https://github.com/AnubhavKumarGupta/Gupta-Music-Player/assets/122034618/12505d8b-d0d9-4b9e-8921-799f8a1d2c54">
 
+![image](https://github.com/AnubhavKumarGupta/Gupta-Music-Player/assets/122034618/3ae72317-0812-4ded-ae15-1bd4b8693ab6)
+
 
 
 # 
