@@ -39,8 +39,8 @@ const songs = [
 
 
   {
-    path: "https://2022.downloadming.ws/bollywood%20mp3/Animal%202023/01%20-%20Hua%20Main%20%28320%20Kbps%29.mp3",
-    musicName: "Hua Main",
+    path: "https://www.mediafire.com/file/cl5u8500s12jx8k/HUA+MAIN+(REMIX)+-+DJ+TARAL.mp3/file",
+    musicName: "Hua Main Remix",
     artist: "Raghav Chaitanya",
     cover: "https://downloadming.ws/uploads/Animal-2023-MP3-Songs-Download.jpg",
   },
