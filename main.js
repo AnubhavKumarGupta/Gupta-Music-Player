@@ -23,10 +23,10 @@ const songs = [
 
 
   {
-    path: "https://hindi.djpunjab.app/load/K3i7DtkOK2HHkhh39UXW8Q==/Papa%20Meri%20Jaan%20(Childs%20Version).mp3",
-    musicName: "Papa Meri Jaan",
-    artist: "R.P. Krishaang",
-    cover: "https://pagalfree.com/images/128Papa%20Meri%20Jaan%20-%20Animal%20128%20Kbps.jpg",
+    path: "https://www.pagalworld.com.sb/files/download/type/320/id/70532",
+    musicName: "Pehle Bhi Main Remix",
+    artist: "Vishal Mishra",
+    cover: "https://th.bing.com/th/id/OIP.KJiWdwcMZDsU8RgFe1ZzkwHaEK?w=287&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
   },
 
 
