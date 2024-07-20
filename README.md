@@ -7,9 +7,10 @@
 - Welcome to Gupta Player 🎉, a simple web-based music player that allows you to listen to your favorite songs with ease! 🎸
 - This repository contains the code for a captivating music player, aptly named "Gupta Music Player."
 
-
-
 ![image](https://github.com/user-attachments/assets/beda774c-d9e5-4029-9e97-6d4ed0cf6728)
+
+![image](https://github.com/user-attachments/assets/50b981f1-30ea-4756-8fc6-75df9d598689)
+
 
 
 # 
