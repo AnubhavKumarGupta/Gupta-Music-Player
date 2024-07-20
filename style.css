@@ -15,6 +15,7 @@ body {
     font-size: 12px;
 }
 
+
 .bg-container {
     position: fixed; 
     top: -50%; 
@@ -22,9 +23,10 @@ body {
     width: 200%; 
     height: 200%;
     z-index: -1;
-}
+} 
 
-.bg-container img {
+
+.bg-container video {
     position: absolute; 
     top: 0; 
     left: 0; 
@@ -32,11 +34,13 @@ body {
     bottom: 0; 
     margin: auto; 
     min-width: 50%;
-    min-height: 50%;
-    filter: blur(15px);
-    -webkit-filter: blur(50px);
-    transform: scale(1.1); 
-}
+    min-height: 50%; 
+
+    
+    /* filter: blur(15px);
+    -webkit-filter: blur(50px);  */
+} 
+
 
 .player-container {
     height: 500px;
@@ -61,7 +65,7 @@ body {
     height: 0;
     width: 0;
     opacity: 0;
-    object-fit: cover; /* may use contain or cover*/
+    object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
     transition: .5s;
@@ -87,9 +91,6 @@ h3 {
     margin: 5px 0 0;
 }
 
-
-/* Progress */
-
 .progress-container {
     background: #fff;
     border-radius: 5px;
@@ -114,9 +115,6 @@ h3 {
     justify-content: space-between;
 }
 
-
-/* Controls */
-
 .player-controls {
     position: relative;
     top: -15px;
@@ -125,7 +123,6 @@ h3 {
 }
 
 .fas {
-
     font-size: 30px;
     color: rgb(129, 129, 129);
     margin-right: 30px;
@@ -143,34 +140,28 @@ h3 {
     top: 3px;
 }
 
-
-/* Media Query: iPhone (Vertical) */
-
 @media screen and (max-width: 376px) {
+    .player-container {
+        width: 95vw;
+    }
 
-.player-container {
-    width: 95vw;
+    .img-container {
+        left: 29px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .player-controls {
+        top: -10px;
+        left: 100px;
+    }
 }
-
-.img-container {
-    left: 29px;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-h3 {
-    font-size: 15px;
-}
-
-.player-controls {
-    top: -10px;
-    left: 100px;
-}
-
-}
-
 
 .footer {
     top: 92%;
@@ -179,12 +170,10 @@ h3 {
     bottom: 10%;
     position: absolute;
     text-align: bottom;
-    color: black;
-
+    color: rgb(247, 241, 241);
 }
 
-        
-.footer a { /* This targets the anchor (link) element within the footer */
-    color: black; /* This sets the color of the link to black */
-    text-decoration:underline; /* This removes the underline from the link */
+.footer a {
+    color: rgb(245, 240, 240);
+    /* text-decoration:; */
 }
