@@ -1,16 +1,19 @@
-let $ = document;
-const image = $.getElementById("cover");
-const title = $.getElementById("title");
-const artist = $.getElementById("artist");
-const music = $.getElementById("audio");
-const currentTimeEl = $.getElementById("current-time");
-const durationEl = $.getElementById("duration");
-const progress = $.getElementById("progress");
-const progressContainer = $.getElementById("progress-container");
-const prevBtn = $.getElementById("prev");
-const playBtn = $.getElementById("play");
-const nextBtn = $.getElementById("next");
-const background = $.getElementById("background");
+let $ = document; // alias kiye hai
+
+const image = $.querySelector("#cover");
+const title = $.querySelector("#title");
+const artist = $.querySelector("#artist");
+const music = $.querySelector("#audio");
+const currentTimeEl = $.querySelector("#current-time");
+const durationEl = $.querySelector("#duration");
+const progress = $.querySelector("#progress");
+const progressContainer = $.querySelector("#progress-container");
+const prevBtn = $.querySelector("#prev");
+const playBtn = $.querySelector("#play");
+const nextBtn = $.querySelector("#next");
+const background = $.querySelector("#background");
+
+// const songs ek array bnae hai uske under songs ke objects insert kiye hai. 
 
 const songs = [
 
@@ -78,11 +81,13 @@ const songs = [
   },
 
 
-
 ];
 
-let isPlaying = false;
-let songIndex = 0;
+
+
+let isPlaying = false;   // starting me songs play nhi hoga until we click on the play button that's why false kiye hai.
+let songIndex = 0;       // array ke under ka index ko depict kr rha ye to songs phele index pe jo hai usko phele play krega.
+
 
 function playSong() {
   isPlaying = true;
@@ -90,6 +95,7 @@ function playSong() {
   playBtn.setAttribute("title", "Pause");
   music.play();
 }
+
 
 function pauseSong() {
   isPlaying = false;
