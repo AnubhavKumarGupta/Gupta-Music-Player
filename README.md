@@ -12,12 +12,8 @@ This repository hosts the code for the vibrant "Gupta Music Player" - a delightf
 ---
 
 
-
 https://github.com/user-attachments/assets/ecfd1b3d-028e-408d-8232-9d841e6cfbca
 
-
-![image](https://github.com/user-attachments/assets/beda774c-d9e5-4029-9e97-6d4ed0cf6728)
-![image](https://github.com/user-attachments/assets/50b981f1-30ea-4756-8fc6-75df9d598689)
 
 ---
 
