@@ -26,10 +26,10 @@ const songs = [
 
 
   {
-    path: "https://pagalfree.com/download/320-Naacho%20Naacho%20-%20RRR%20320%20Kbps.mp3",
-    musicName: "Naacho Naacho.",
-    artist: "Vishal Mishra, Rahul Sipligunj.",
-    cover: "https://pagalfree.com/images/128Naacho%20Naacho%20-%20RRR%20128%20Kbps.jpg",
+    path: "https://hindi3.djpunjab.app/load/EqaDW-O7bZn-srX7LjadKw==/Pyaar%20Ke%20Pal%20(From%20Pal).mp3",
+    musicName: "Pyaar Ke Pal.",
+    artist: "KK.",
+    cover: "https://raag.fm/image/250/2417833/Best_of_Bollywood:_KK_K.K..jpg",
   },
   
 
@@ -50,10 +50,10 @@ const songs = [
 
 
   {
-    path: "https://webrafts.com/wp-content/uploads/music/2024/07/Adele_-_Skyfall_(Jesusfuly.com).mp3",
-    musicName: "Skyfall.",
-    artist: "Adele.",
-    cover: "https://th.bing.com/th/id/OIP.Oa_GV-cVP4ryTL2ITk6kYgHaHa?w=177&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    path: "https://raag.fm/files/mp3/128/Hindi/1067286/Woh%20Lamhein%20(DJ%20Suketu%20Mix)%20-%20(Raag.Fm).mp3",
+    musicName: "Woh Lamhein (DJ Suketu Mix).",
+    artist: "Atif Aslam.",
+    cover: "https://raag.fm/image/250/1067286/Zeher_Atif_Aslam.jpg",
   },
 
 
@@ -119,6 +119,7 @@ function loadSongs(song) {
   changeCover(song.cover);
 }
 
+
 function changeCover(cover) {
   image.classList.remove("active");
   setTimeout(() => {
@@ -126,6 +127,7 @@ function changeCover(cover) {
     image.classList.add("active");
   }, 100);
 }
+
 
 function nextSong() {
   songIndex++;
